@@ -1,8 +1,8 @@
 package com.BalancePro.Domain.mapper;
 
-import com.BalancePro.Domain.dto.users.UserCreateDTO;
-import com.BalancePro.Domain.dto.users.UserResponseDTO;
-import com.BalancePro.Domain.dto.users.UserUpdateDTO;
+import com.BalancePro.Domain.DTO.users.UserCreateDTO;
+import com.BalancePro.Domain.DTO.users.UserResponseDTO;
+import com.BalancePro.Domain.DTO.users.UserUpdateDTO;
 import com.BalancePro.Domain.entity.User;
 import org.springframework.stereotype.Component;
 

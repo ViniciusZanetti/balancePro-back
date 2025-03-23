@@ -1,11 +1,10 @@
-package com.BalancePro.Domain.dto.users;
+package com.BalancePro.Domain.DTO.users;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor

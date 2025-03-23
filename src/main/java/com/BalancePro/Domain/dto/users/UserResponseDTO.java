@@ -1,14 +1,13 @@
-package com.BalancePro.Domain.dto.users;
+package com.BalancePro.Domain.DTO.users;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.UUID;
 
 @Data
 @Builder
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserResponseDTO {

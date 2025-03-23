@@ -1,8 +1,7 @@
 package com.BalancePro.Controller;
-
-import com.BalancePro.Domain.dto.users.UserCreateDTO;
-import com.BalancePro.Domain.dto.users.UserResponseDTO;
-import com.BalancePro.Domain.dto.users.UserUpdateDTO;
+import com.BalancePro.Domain.DTO.users.UserCreateDTO;
+import com.BalancePro.Domain.DTO.users.UserResponseDTO;
+import com.BalancePro.Domain.DTO.users.UserUpdateDTO;
 import com.BalancePro.Domain.service.UserDomainService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
