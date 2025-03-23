@@ -1,6 +1,18 @@
 version: '3.8'
 
 services:
+  balancepro_backend:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/balancePro
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
   postgres:
     image: 'postgres:latest'
     container_name: balance_db
