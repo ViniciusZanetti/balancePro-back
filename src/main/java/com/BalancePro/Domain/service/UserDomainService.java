@@ -1,8 +1,8 @@
 package com.BalancePro.Domain.service;
 
-import com.BalancePro.Domain.dto.users.UserCreateDTO;
-import com.BalancePro.Domain.dto.users.UserResponseDTO;
-import com.BalancePro.Domain.dto.users.UserUpdateDTO;
+import com.BalancePro.Domain.DTO.users.UserCreateDTO;
+import com.BalancePro.Domain.DTO.users.UserResponseDTO;
+import com.BalancePro.Domain.DTO.users.UserUpdateDTO;
 import com.BalancePro.Domain.entity.User;
 import com.BalancePro.Domain.exceptions.ResourceAlreadyExistsException;
 import com.BalancePro.Domain.exceptions.ResourceNotFoundException;
