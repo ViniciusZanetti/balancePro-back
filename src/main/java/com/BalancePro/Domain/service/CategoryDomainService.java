@@ -81,4 +81,17 @@ public class CategoryDomainService {
         }
         repository.deleteById(id);
     }
+
+    public void create (CategoryReqDTO body){
+
+        User user = repositoryUser.findById(body.userId()).orElseThrow(() -> new RuntimeException("User not found."));
+
+        Category category = new Category();
+
+        category.setName(body.name());
+        category.setDescription(body.description());
+        category.setUser(user);
+
+        repository.save(category);
+    }
 }
